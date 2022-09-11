@@ -1,0 +1,76 @@
+body{
+    width: 1440px;
+    height: 780px;
+    top: 622px;
+    
+}
+
+main{
+    background-color: #928f91;
+    
+    display: flex;
+    margin: 40px 250px ;
+    padding: 50px 100px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+h1{
+    text-align: center;
+    color: darkorange;
+    background-color: chartreuse;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+.textarea{
+    margin-top: 5px;
+    border: 5px;
+}
+
+.encriptar{
+    margin-top: 15px;
+    margin-left: 58px;
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: blue;
+    color: #e5e5e5;
+    border-radius: 5px;
+}
+.desencriptar{
+    margin-top: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(43, 223, 58);
+    color: #f063cd;
+    border-radius: 5px;
+}
+
+.mensaje{  /* cuadro texto derecha */
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("./imágenes/Muñeco.png");
+    background-repeat: no-repeat; /* esto hace que la imágen no se repita */
+    background-position: 8px;
+    background-size: 300px;
+    
+}
+
+
+#copiar{
+    position: absolute;
+    display: block;
+    margin-left: 210px;
+    margin-top: 12px;
+    background-color: rgb(231, 165, 206);
+    padding: 5px 15px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(107, 91, 91);
+}

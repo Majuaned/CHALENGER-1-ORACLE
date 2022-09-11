@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nuevooo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>PROGRAMA ORACLE - ENCRIPTADOR</title>
 </head>
 <body>
-    <h1>nuevos cambios</h1>
-    
+    <h1>CHALENGER 1: ENCRIPTADOR</h1>
+    <header>
+        <img src="./imágenes/logoalura.png" alt="logo de alura solo letra a">
+    </header>
+    <main>
+        <!-- Sección 1  -->
+        <section>
+            <textarea class="textarea" cols="40" rows="19" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+
+                <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <!--Sección 2  -->
+        <section class="sec2">
+            <textarea class="mensaje" cols="45" rows="18"></textarea>
+
+            <button id="copiar" onclick="copiar()">Copiar Texto</button>
+
+        </section>
+    </main>
+    <footer>Desarrollador Maldonado Juan (Argentina)</footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
